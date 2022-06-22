@@ -142,5 +142,5 @@ INSERT INTO sacola(quantidade, id_roupa, id_carrinho) VALUES (1, 1, 1);
 INSERT INTO sacola(quantidade, id_roupa, id_carrinho) VALUES (2, 2, 1);
 
 /*-Compra-*/
-/*a compra*/						 /*vl_pantufa X qt_in_sacola |*/   /* | vl_jeans X qt_in_sacola*/
+/*a compra*/						 /*vl_pantufa X qt_in_sacola + vl_jeans X qt_in_sacola*/
 INSERT INTO compra(id_carrinho, valor, datacompra) VALUES(1, 199 * 1 + 90 * 2,'30/05/2022');
